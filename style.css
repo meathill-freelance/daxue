@@ -1,0 +1,56 @@
+/*
+Theme Name:     Aegean Child
+Theme URI:      http: //www.meathill.com/
+Description:    Customized for Daxue
+Author:         Meathill
+Author URI:     http: //blog.meathill.com/
+Template:       aegean
+Version:        0.1.0
+*/
+
+@import url("../aegean/style.css");
+
+/*************************
+ * redesign header
+ ************************/
+#header-wrap {
+  background: #FFF;
+  background: rgba(255,255,255,0.9);
+}
+#header {
+  background: none;
+}
+#header h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FFF;
+  background: rgba(255,255,255,0.9);
+  border-radius: 0 55px 55px 55px;
+  margin: 0;
+  padding: 5px;
+}
+#header h1 img {
+  display: block;
+}
+#sub-header {
+  font: bold 16px/42px Microsoft Yahei;
+  width: 144px;
+  float: left;
+  background: #FFF;
+  background: rgba(255,255,255,0.9);
+  text-align: center;
+  padding-left: 93px;
+  color: rgb(66, 107, 181);
+}
+
+#navigation {
+  float: right;
+}
+.nav li a {
+  font: 14px/42px Simsun;
+  padding: 0 7px;
+}
+li.current_page_item a {
+  font-weight: bold;
+}
